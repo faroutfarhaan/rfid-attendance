@@ -59,12 +59,19 @@ header, main {
 }
 
 .topnav {
-  overflow: hidden;
+  overflow:hidden;
   display: flex;
   align-items: center;
-  justify-items: center;
-  margin: 0 2rem;
+  align-items: center;
+  
+  border-radius: 40px;
+  margin-top: 2rem;
+  
+  width:max-content ;
   background-color: #A6B1E1;
+  position: absolute;
+  left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .topnav a {
