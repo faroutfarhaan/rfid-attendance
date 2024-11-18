@@ -4,8 +4,8 @@
 }
 
 body{
-    background: -webkit-linear-gradient(left, #0e251f, #21a0ab);
-    background: linear-gradient(to right, #23555c, #21a0ab);
+    /* background: -webkit-linear-gradient(left, #0e251f, #21a0ab); */
+    background: #F4EEFF;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     font-size: 15px;
@@ -23,13 +23,14 @@ header, main {
 }
 .logo a {
   text-decoration: none; 
-  font-family: Luminari, fantasy;
+  font-family: "Roboto";
   font-size: 40px;
-  color: #000000;
-  font-style: italic;
-  text-align: center;
-  vertical-align: middle;
+  color: #360202;
+  /* font-style: italic; */
+  text-align: left;
+  vertical-align: left;
   line-height: 100px;
+  padding-left: 20px;
   display: block;
 }
 
@@ -59,12 +60,16 @@ header, main {
 
 .topnav {
   overflow: hidden;
-  background-color: #187881;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 0 2rem;
+  background-color: #A6B1E1;
 }
 
 .topnav a {
   float: left;
-  display: block;
+  display: flex;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -73,8 +78,8 @@ header, main {
 }
 
 .topnav a:hover {
-  background-color: #20a1ac;
-  color: black;
+  background-color: #424874;
+  color: white;
 }
 
 .topnav .icon {
