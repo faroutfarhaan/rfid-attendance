@@ -41,7 +41,7 @@ section {
   background-color: #F4EEFF !important;
 }
 .panel-body {
-  background-color: #F4EEFF !important;
+  background-color: #A6B1E1 !important;
 }
 
 .mode_select {
@@ -58,7 +58,7 @@ section {
 }
 
 .mode_select label {
-  background-color: #46abb9;
+  background-color: #A6B1E1;
   color: #000;
   font-size: 14px;
   line-height: 1;
