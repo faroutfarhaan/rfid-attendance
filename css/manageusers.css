@@ -132,7 +132,7 @@ td{
   cursor: pointer;
 }
 .form-style-5 .number {
-  background: #388994;
+  background: #424874;
   color: #fff;
   height: 30px;
   width: 30px;
@@ -151,12 +151,12 @@ td{
   padding: 10px 39px 10px 39px;
   color: #FFF;
   margin: 0 auto;
-  background: #388994;
+  background: #424874;
   font-size: 16px;
   text-align: center;
   font-style: normal;
   width: 100%;
-  border: 1px solid #3f9aa6;
+  border: 1px solid #424874;
   border-width: 1px 1px 3px;
   margin-bottom: 10px;
 }
