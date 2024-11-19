@@ -34,7 +34,7 @@ if (isset($_SESSION['Admin-name'])) {
   <h1 class="slideInDown animated">Please, Login with the Admin E-mail and Password</h1>
   <h1 class="slideInDown animated" id="reset">Please, Enter your Email to send the reset password link</h1>
 <!-- Log In -->
-<section>
+<section class="section-form">
   <div class="slideInDown animated">
     <div class="login-page">
       <div class="form">

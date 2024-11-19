@@ -35,13 +35,13 @@ section {
 	margin: 20px auto;
 }
 .panel {
-  border-color: #388994 !important;
+  border-color: #F4EEFF !important;
 }
 .panel-heading {
-  background-color: #388994 !important;
+  background-color: #F4EEFF !important;
 }
 .panel-body {
-  background-color: #46abb9 !important;
+  background-color: #F4EEFF !important;
 }
 
 .mode_select {

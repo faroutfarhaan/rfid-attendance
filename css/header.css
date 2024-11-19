@@ -27,8 +27,8 @@ header, main {
   font-size: 40px;
   color: #360202;
   /* font-style: italic; */
-  text-align: left;
-  vertical-align: left;
+  text-align: center;
+  vertical-align: center;
   line-height: 100px;
   padding-left: 20px;
   display: block;
@@ -59,8 +59,8 @@ header, main {
 }
 
 .topnav {
-  position: fixed; /* Ensures the topnav stays fixed at the top of the viewport */
-  top: 0;
+  position: relative; /* Ensures the topnav stays fixed at the top of the viewport */
+  top: 5rem;
   left: 50%;
   transform: translateX(-50%);
   background-color: #A6B1E1;

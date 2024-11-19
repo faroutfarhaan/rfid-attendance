@@ -7,7 +7,7 @@
 <header>
 <div class="header">
 	<div class="logo">
-		<a href="main.php">Attendance</a>
+		<a href="main.php">Centralized Attendance System</a>
 	</div>
 </div>
 <?php  
