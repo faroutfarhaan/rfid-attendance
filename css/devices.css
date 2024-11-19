@@ -5,7 +5,15 @@ h1{
   font-weight: 300;
   font-family: New Century Schoolbook, TeX Gyre Schola, serif !important;
   text-align: center;
+  padding-top: 200%;
   margin: 15px !important;
+    
+}
+h1.slideInDown.animated {
+  margin-top: 100px; /* Adjust this value based on your topnav height */
+}
+body {
+  padding-top: 120px; /* Matches the height of the topnav */
 }
 th{
   padding: 15px;

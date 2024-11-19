@@ -59,19 +59,19 @@ header, main {
 }
 
 .topnav {
-  overflow:hidden;
+  position: fixed; /* Ensures the topnav stays fixed at the top of the viewport */
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #A6B1E1;
+  border-radius: 40px;
+  margin-top: 0; /* Reset margin */
+  padding: 1rem; /* Optional: Add padding for better aesthetics */
+  z-index: 1000; /* Ensure it stays above other elements */
+  width: max-content;
   display: flex;
   align-items: center;
-  align-items: center;
-  
-  border-radius: 40px;
-  margin-top: 2rem;
-  
-  width:max-content ;
-  background-color: #A6B1E1;
-  position: absolute;
-  left: 50%;
-    transform: translate(-50%, -50%);
+  overflow: hidden;
 }
 
 .topnav a {
